@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("My name is Panuwit Sattayawatanagul/nSend homework to Teacher/nHello, Node JS And Azure");
+    response.end("My name is Panuwit Sattayawatanagul\nSend homework to Teacher\nHello, Node JS And Azure");
 
 });
 
